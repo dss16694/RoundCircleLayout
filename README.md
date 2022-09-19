@@ -4,7 +4,7 @@
 
 依赖方法：
 ```
-implementation "io.github.liukai2530533:round_circle_imageview:1.0.1"
+implementation "com.gitee.newki123456:round_circle_layout:1.0.0"
 ```
 
 #### 如何使用：

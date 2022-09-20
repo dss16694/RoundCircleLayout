@@ -81,4 +81,4 @@ implementation "com.gitee.newki123456:round_circle_layout:1.0.0"
 
 具体的实现可以参考我的博客：
 
-https://juejin.cn/post/7143410101951397919
+https://juejin.cn/post/7145267096577343502

@@ -56,7 +56,6 @@
 
             </com.newki.round_circle_layout.RoundCircleConstraintLayout>
 
-
             <com.newki.round_circle_layout.RoundCircleLinearLayout
                 android:id="@+id/layout_3"
                 android:layout_width="@dimen/d_150dp"
@@ -74,7 +73,6 @@
 
             </com.newki.round_circle_layout.RoundCircleLinearLayout>
 
-
             <com.newki.round_circle_layout.RoundCircleConstraintLayout
                 android:layout_width="@dimen/d_150dp"
                 android:layout_height="@dimen/d_150dp"
@@ -86,14 +84,12 @@
 
             </com.newki.round_circle_layout.RoundCircleConstraintLayout>
 
-
             <com.newki.round_circle_layout.RoundCircleRelativeLayout
                 android:layout_width="@dimen/d_150dp"
                 android:layout_height="@dimen/d_150dp"
                 android:layout_marginTop="@dimen/d_10dp"
                 app:round_circle_background_drawable="@drawable/chengxiao"
                 app:round_radius="@dimen/d_40dp" />
-
 
             <com.newki.round_circle_layout.RoundCircleFrameLayout
                 android:layout_width="wrap_content"

@@ -54,7 +54,7 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
 
 
-    implementation project(':round_img_lib')
-
+//    implementation project(':round_img_lib')
+    implementation "com.gitee.newki123456:round_circle_layout:1.0.0"
 
 }

@@ -1,5 +1,9 @@
 ## RoundCircleLayout
 
+这个不是我的原创，导入过来只是为了后续方便修改
+
+原始项目地址：https://gitee.com/newki123456/RoundCircleLayout
+
 可以支持圆角与圆形裁剪的RoundCircleLayout。基于Outline与Shader实现，无需配置硬件加速，无兼容性问题。
 
 依赖方法：

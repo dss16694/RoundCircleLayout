@@ -44,10 +44,10 @@ internal class RoundCircleViewImpl(
 
             //判断是否包含自定义圆角
             val typedArray = context.obtainStyledAttributes(attributeSet, attrs)
-            val topLeft = typedArray.getDimensionPixelOffset(attrIndexs[2], 0).toFloat()
-            val topRight = typedArray.getDimensionPixelOffset(attrIndexs[3], 0).toFloat()
-            val bottomLeft = typedArray.getDimensionPixelOffset(attrIndexs[4], 0).toFloat()
-            val bottomRight = typedArray.getDimensionPixelOffset(attrIndexs[5], 0).toFloat()
+            val topLeft = 16
+            val topRight = 16
+            val bottomLeft = 16
+            val bottomRight = 16
             typedArray.recycle()
 
             roundCirclePolicy = if (topLeft > 0 || topRight > 0 || bottomLeft > 0 || bottomRight > 0) {
@@ -90,5 +90,10 @@ internal class RoundCircleViewImpl(
     fun setNativeDrawable(drawable: Drawable) {
         roundCirclePolicy.setNativeDrawable(drawable)
     }
+    fun updateCornerRadius(topLeft: Float, topRight: Float, bottomLeft: Float, bottomRight: Float) {
+    // 更新圆角尺寸，假设这两个策略支持更新圆角
+        roundCirclePolicy.updateCornerRadius(topLeft, topRight, bottomLeft, bottomRight)
+    }
+
 
 }
